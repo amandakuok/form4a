@@ -1,0 +1,50 @@
+* {
+  box-sizing:border-box;
+}
+body{
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  width: 1000px;
+  margin: auto;
+}
+header{
+  background-color: pale blue;
+  color:white;
+  padding: 5px;
+  text-align: center;
+}
+nav{
+     background-color: pink;
+  text-align: center;
+}
+a{ 
+  display: inline-block;
+  background-color: pink;
+  color: ligjt purple;
+  padding:5px;
+}
+a:hover{
+        background-color: light purple;
+        color: white;
+}
+div{
+    display: block;
+    background-color: white;
+    float: left;
+    width: 150px;
+    height: 500px;
+}
+article{
+        width: 700px;
+        height: 500px;
+        float: left;
+        overflow-x: hidden;
+        overflow-y: auto;
+}
+footer{
+       display: inline-block;
+       background-color: aqua;
+       color: white;
+       width: 100%;
+       padding: 5px;
+       text-align: center;
+}
